@@ -1,0 +1,39 @@
+pkgbase = webots-bin
+	pkgdesc = Mobile robot simulation software
+	pkgver = R2020a_rev1
+	pkgrel = 1
+	url = https://cyberbotics.com/
+	arch = x86_64
+	license = Apache
+	depends = make
+	depends = gcc
+	depends = atk
+	depends = ffmpeg
+	depends = dbus
+	depends = freeimage>=3.15.4
+	depends = glib2
+	depends = glu
+	depends = gtk3
+	depends = nss
+	depends = gcc-libs
+	depends = libxaw
+	depends = libxrandr
+	depends = libxrender
+	depends = zziplib>=0.13.62
+	depends = libssh
+	depends = libzip
+	depends = xorg-server
+	depends = libxslt
+	depends = gd
+	depends = freetype2
+	provides = webots
+	conflicts = webots
+	noextract = webots_2020a-rev1_amd64.deb
+	options = !strip
+	source = https://github.com/cyberbotics/webots/releases/download/R2020a-rev1/webots_2020a-rev1_amd64.deb
+	source = webots.desktop
+	sha256sums = b7f59b00edcf342f4f778a508dfce2be9b1d51c7424222982f788391f580b9f9
+	sha256sums = f5c7b0b8efb778f9e57cc25508c0fc07cae8544033824e495b582cffc2088632
+
+pkgname = webots-bin
+

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Webots
+Comment=Webots mobile robot simulator
+Exec=webots
+Icon=webots
+Terminal=false
+Type=Application
